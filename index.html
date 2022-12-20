@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--========== BOX ICONS ==========-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"
+    />
+
+    <!--========== CSS ==========-->
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+
+    <link
+      rel="shortcut icon"
+      href="./assets//img//favicon.png"
+      type="image/x-icon"
+    />
+
+    <title>A.Yudaev Resume</title>
+  </head>
+  <body>
+    <!--========== HEADER ==========-->
+    <header class="l-header" id="header">
+      <nav class="nav bd-container">
+        <a class="nav__logo" href="#home">Azamat</a>
+
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a class="nav__link" href="#home">
+                <i class="bx bx-home nav__icon"></i> Home
+              </a>
+            </li>
+
+            <li class="nav__item">
+              <a class="nav__link" href="#education">
+                <i class="bx bx-book nav__icon"></i> Education
+              </a>
+            </li>
+
+            <li class="nav__item">
+              <a class="nav__link" href="#skills">
+                <i class="bx bx-receipt nav__icon"></i> Skills
+              </a>
+            </li>
+
+            <li class="nav__item">
+              <a class="nav__link" href="#profile">
+                <i class="bx bx-user nav__icon"></i> About Me
+              </a>
+            </li>
+
+            <li class="nav__item">
+              <a class="nav__link" href="#experience">
+                <i class="bx bx-briefcase-alt nav__icon"></i> Experience
+              </a>
+            </li>
+
+            <li class="nav__item">
+              <a class="nav__link" href="#certificates">
+                <i class="bx bx-award nav__icon"></i> Certificates
+              </a>
+            </li>
+
+            <li class="nav__item">
+              <a class="nav__link" href="#projects">
+                <i class="bx bx-link-external nav__icon"></i> Projects
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="bx bx-grid-alt"></i>
+        </div>
+      </nav>
+    </header>
+
+    <main class="l-main bd-container">
+      <!-- All elements within this div, is generated in PDF -->
+      <div class="resume" id="area-cv">
+        <div class="resume__left">
+          <!--========== HOME ==========-->
+          <section class="home" id="home">
+            <div class="home__container section bd-grid">
+              <div class="home__data bd-grid">
+                <div class="home__img">
+                  <img src="./assets/img/profile.jpg" alt="" />
+                </div>
+
+                <h1 class="home__title">Azamat <b>Yudaev</b></h1>
+                <h3 class="home__profession">Frontend Developer</h3>
+
+                <div>
+                  <a
+                    class="home__button-movil"
+                    href="./assets/img/myResume.pdf"
+                    download
+                  >
+                    Download CV
+                  </a>
+                </div>
+              </div>
+
+              <div class="home__address">
+                <a
+                  class="home__information"
+                  href="https://goo.gl/maps/e4c2bTHXBXoM6BRN8"
+                  target="_blank"
+                >
+                  <i class="bx bx-map home__icon"></i> Tashkent
+                </a>
+
+                <a
+                  class="home__information"
+                  href="mailto:azamatyudaev@gmail.com"
+                  target="_blank"
+                >
+                  <i class="bx bx-envelope home__icon"></i>
+                  azamatyudaev@gmail.com
+                </a>
+
+                <a class="home__information" href="tel:998950044048">
+                  <i class="bx bx-phone home__icon"></i> +998 95 004-40-48
+                </a>
+              </div>
+            </div>
+
+            <!-- Theme change button -->
+            <button class="change-theme" title="Theme">
+              <i class="bx bx-moon" id="theme-button"></i>
+            </button>
+
+            <!-- Button to generate and download the pdf. Available for desktop. -->
+            <button class="generate-pdf" type="button" id="resume-button">
+              <i class="bx bx-download" title="Generate PDF"></i>
+            </button>
+          </section>
+
+          <!--========== SOCIAL ==========-->
+          <section class="social section">
+            <h2 class="section-title">SOCIAL</h2>
+            <div class="social__container bd-grid">
+              <a
+                class="social__link"
+                href="https://github.com/azamatyudaev"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <i class="bx bxl-github social__icon"></i> @azamatyudaev
+              </a>
+              <a
+                class="social__link"
+                href="https://t.me/azamatyudaev"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <i class="bx bxl-telegram social__icon"></i> @azamatyudaev
+              </a>
+            </div>
+          </section>
+
+          <!--========== EDUCATION ==========-->
+          <section class="education section" id="education">
+            <h2 class="section-title">Education</h2>
+
+            <div class="education__container bd-grid">
+              <div class="education__content">
+                <div class="education__time">
+                  <span class="education__rounder"></span>
+                  <span class="education__line"></span>
+                </div>
+
+                <div class="education__data bd-grid">
+                  <h3 class="education__title">
+                    Tashkent Professional College of Communication
+                  </h3>
+                  <span class="education__studies">College of Studies</span>
+                  <span class="education__year">2011 - 2014</span>
+                </div>
+              </div>
+
+              <div class="education__content">
+                <div class="education__time">
+                  <span class="education__rounder"></span>
+                  <!-- <span class="education__line"></span> -->
+                </div>
+
+                <div class="education__data bd-grid">
+                  <h3 class="education__title">
+                    IT Labs <br />
+                    Frontend Development
+                  </h3>
+                  <span class="education__studies">Studies</span>
+                  <span class="education__year">2020 - 2021</span>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <!--========== SKILLS  ==========-->
+          <section class="skills section" id="skills">
+            <h2 class="section-title">Skills</h2>
+
+            <div class="skills__content bd-grid">
+              <ul class="skills__data">
+                <li class="skills__name">
+                  <span class="skills__circle"></span> HTML
+                </li>
+                <li class="skills__name">
+                  <span class="skills__circle"></span> CSS
+                </li>
+                <li class="skills__name">
+                  <span class="skills__circle"></span> SCSS
+                </li>
+                <li class="skills__name">
+                  <span class="skills__circle"></span> TailwindCSS
+                </li>
+                <li class="skills__name">
+                  <span class="skills__circle"></span> Git
+                </li>
+              </ul>
+
+              <ul class="skills__data">
+                <li class="skills__name">
+                  <span class="skills__circle"></span> JavaScript
+                </li>
+                <li class="skills__name">
+                  <span class="skills__circle"></span> React.js
+                </li>
+                <li class="skills__name">
+                  <span class="skills__circle"></span> Next.js
+                </li>
+                <li class="skills__name">
+                  <span class="skills__circle"></span> Typescript
+                </li>
+                <li class="skills__name">
+                  <span class="skills__circle"></span> Redux Toolkit
+                </li>
+              </ul>
+            </div>
+          </section>
+        </div>
+
+        <div class="resume__right">
+          <!--========== ABOUT ME ==========-->
+          <section class="profile section" id="profile">
+            <h2 class="section-title">About Me</h2>
+            <p class="profile__description">
+              I&apos;m Azamat, a self-taught front-end developer with over
+              1-year experience. I&apos;m passionate about the ecosystem of
+              JavaScript. I&apos;m hard-working and keen on learning new things.
+              I always try to write clean code correctly to enhance my skills
+              and the quality of my work. I&apos;m currently looking for the
+              opportunity to work in an environment that will help me progress
+              within my career path. Furthermore, I enjoy sharing knowledge and
+              experience, which benefits both parties.
+            </p>
+          </section>
+
+          <!--========== EXPERIENCE ==========-->
+          <section class="experience section" id="experience">
+            <h2 class="section-title">Experience</h2>
+
+            <div class="experience__container bd-grid">
+              <div class="experience__content">
+                <div class="experience__time">
+                  <span class="experience__rounder"></span>
+                  <span class="experience__line"></span>
+                </div>
+
+                <div class="experience__data bd-grid">
+                  <h3 class="experience__title">Mentoring</h3>
+                  <span class="experience__company">
+                    From 2021 to 2022 | IT Labs
+                  </span>
+                  <p class="experience__description">
+                    Work in this company dedicationg the best responsibility in
+                    the area that corresponds, delivering the best results for
+                    the company and imporving productivity.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <!--========== CERTIFICATES ==========-->
+          <section class="certificate section" id="certificates">
+            <h2 class="section-title">Certificates</h2>
+
+            <div class="certificate__container bd-grid">
+              <div class="certificate__content">
+                <h3 class="certificate__title">
+                  Certified for compliance Front-End Development (2021)
+                </h3>
+                <p class="certificate__description">
+                  This Certificate is proudly presented to: Azamat Khabibulleav
+                  <br />
+                  has successfully completed the course Front-End Development.
+                  Course Duration 72 Lessons
+                </p>
+              </div>
+              <img
+                class="certificate__img"
+                src="./assets/img/certificate.jpg"
+                alt=""
+              />
+            </div>
+          </section>
+
+          <!--========== PROJECTS ==========-->
+          <section class="projects section" id="projects">
+            <h2 class="section-title">Projects</h2>
+
+            <div class="projects__container bd-grid">
+              <div class="projects__content bd-grid">
+                <h3 class="projects__title">Clothing Shop</h3>
+                <span class="projects__subtitle">in progress...</span>
+                <ul class="projects__list">
+                  <li class="projects__item">
+                    <a
+                      class="projects__link"
+                      href="https://github.com/azamatyudaev/clothing-shop"
+                      target="_blank"
+                    >
+                      View project
+                      <i class="bx bx-right-arrow-alt projects__icon"></i>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+
+              <div class="projects__content bd-grid">
+                <h3 class="projects__title">Search GitHub Users</h3>
+                <span class="projects__subtitle">
+                  in the process of learning RTQ Query
+                </span>
+                <ul class="projects__list">
+                  <li class="projects__item">
+                    <a
+                      class="projects__link"
+                      href="https://github.com/azamatyudaev/netflix-clone"
+                      target="_blank"
+                    >
+                      View project
+                      <i class="bx bx-right-arrow-alt projects__icon"></i>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+
+              <div class="projects__content bd-grid">
+                <h3 class="projects__title">Shopping Cart</h3>
+                <span class="projects__subtitle">
+                  in the process of learning TypeScript
+                </span>
+                <ul class="projects__list">
+                  <li class="projects__item">
+                    <a
+                      class="projects__link"
+                      href="https://github.com/azamatyudaev/airbnb-clone"
+                      target="_blank"
+                    >
+                      View project
+                      <i class="bx bx-right-arrow-alt projects__icon"></i>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </section>
+
+          <!--========== LANGUAGES ==========-->
+          <section class="languages section">
+            <h2 class="section-title">Languages</h2>
+
+            <ul class="languages__content bd-grid">
+              <li class="languages__name">
+                <div><span class="languages__circle"></span> Uzbek</div>
+                <span class="languages__level">(Native)</span>
+              </li>
+              <li class="languages__name">
+                <div><span class="languages__circle"></span> Russian</div>
+                <span class="languages__level">(A2 Elementary)</span>
+              </li>
+              <li class="languages__name">
+                <div><span class="languages__circle"></span> English</div>
+                <span class="languages__level">(B1 Intermediate)</span>
+              </li>
+            </ul>
+          </section>
+
+          <!--========== INTERESTS ==========-->
+          <section class="interests section">
+            <h2 class="section-title">Interests</h2>
+
+            <div class="interests__container bd-grid">
+              <div class="interests__content">
+                <i class="bx bxs-plane-alt interests__icon"></i>
+                <span class="interests__name">Travel</span>
+              </div>
+
+              <div class="interests__content">
+                <i class="bx bx-book interests__icon"></i>
+                <span class="interests__name">Reading</span>
+              </div>
+
+              <div class="interests__content">
+                <i class="bx bx-dumbbell interests__icon"></i>
+                <span class="interests__name">Workout</span>
+              </div>
+
+              <div class="interests__content">
+                <i class="bx bx-headphone interests__icon"></i>
+                <span class="interests__name">Music</span>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+    </main>
+
+    <!--========== SCROLL TOP ==========-->
+    <a class="scroll-top" id="scroll-top" href="#home">
+      <i class="bx bx-up-arrow-alt scroll-top__icon"></i>
+    </a>
+
+    <!--========== HTML2PDF ==========-->
+    <script src="./assets/js/html2pdf.bundle.min.js"></script>
+
+    <!--========== MAIN JS ==========-->
+    <script src="./assets/js/main.js"></script>
+  </body>
+</html>
